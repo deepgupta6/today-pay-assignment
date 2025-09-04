@@ -1,0 +1,82 @@
+[
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "incorrect_answers": ["Madrid", "Berlin", "Rome"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "incorrect_answers": ["Venus", "Saturn", "Jupiter"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which animal is known as the King of the Jungle?",
+    "correct_answer": "Lion",
+    "incorrect_answers": ["Tiger", "Elephant", "Cheetah"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "How many continents are there on Earth?",
+    "correct_answer": "7",
+    "incorrect_answers": ["5", "6", "8"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the largest mammal in the world?",
+    "correct_answer": "Blue Whale",
+    "incorrect_answers": ["Elephant", "Shark", "Giraffe"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which gas do humans need to breathe in to survive?",
+    "correct_answer": "Oxygen",
+    "incorrect_answers": ["Carbon Dioxide", "Nitrogen", "Hydrogen"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which is the fastest land animal?",
+    "correct_answer": "Cheetah",
+    "incorrect_answers": ["Horse", "Leopard", "Tiger"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "In which country were the Olympic Games invented?",
+    "correct_answer": "Greece",
+    "incorrect_answers": ["Italy", "France", "Egypt"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "How many days are there in a leap year?",
+    "correct_answer": "366",
+    "incorrect_answers": ["365", "364", "367"]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which ocean is the largest on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "incorrect_answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean"]
+  }
+]

@@ -1,82 +1,66 @@
-React-Based Trivia Quiz Application
-This document provides a comprehensive overview of an advanced trivia quiz application developed utilizing the React framework. The project is engineered to deliver a sophisticated and interactive user experience, underscored by a clean user interface, fluid animations, and robust state management protocols.
+# 🎮 React-Based Trivia Quiz Application
 
-(Note: It is recommended to replace the URL above with a link to a screenshot of the application.)
+An **advanced trivia quiz application** built with **React** to deliver a **fun, interactive, and responsive user experience**.  
+It features **clean UI, smooth animations, real-time API integration, and robust state management**.  
 
-✨ Core Functionalities
-The application is equipped with a comprehensive suite of features designed to ensure robustness, user-friendliness, and operational resilience.
+---
 
-Gameplay Mechanics
-Dynamic Retrieval of Questions: Questions are dynamically fetched in real-time from the public Trivia API.
+## ✨ Core Functionalities
 
-Configurable Difficulty Levels: Users are provided with the option to select from multiple difficulty tiers—specifically Easy, Medium, and Hard—to customize the level of challenge.
+### 🎲 Gameplay Mechanics
+- 🔄 **Dynamic Retrieval of Questions**: Fetched in real-time from the public Trivia API.  
+- 🎚️ **Configurable Difficulty Levels**: Choose between *Easy, Medium, and Hard*.  
+- ⏱️ **Time-Constrained Questioning**: 30-second timer with color transitions *(green → yellow → red)*.  
+- 🏆 **Performance Scoring**: Scores update immediately after each correct answer.  
+- ⏭️ **Skip Feature**: Users can bypass questions they don’t want to answer.  
+- 📊 **Comprehensive Results Summary**: Final score, percentage, and detailed review of all responses.  
 
-Time-Constrained Questioning: Each question is accompanied by a 30-second response timer. The visual representation of the timer transitions in color from green to yellow and subsequently to red to indicate diminishing time.
+### 🎨 User Interface & Experience Enhancements
+- 📱 **Responsive UI**: Built with **Tailwind CSS** for a seamless multi-device experience.  
+- 🎬 **Fluid Animations**: Powered by **Framer Motion** for smooth transitions & feedback.  
+- ✅❌ **Visual Response Indicators**: Using **Lucide React icons** for correct/incorrect answers.  
+- 🧭 **Optimized Layout Design**: Professional, intuitive, and easy to navigate.  
 
-Performance Scoring: The user's score is incrementally updated upon the submission of each correct answer.
+### ⚙️ Technical Specs & Error Handling
+- 🔄 **API Fallback Mechanism**: Switches to local sample questions if API fails or times out (8s).  
+- 🔀 **Selectable Data Source**: Users can toggle between **live API** and **local JSON data**.  
+- 💾 **High Score Persistence**: Saved in **localStorage** for tracking best performances.  
+- 🔁 **Session State Persistence**: Ongoing quiz progress restored via **sessionStorage** after refresh.  
+- ⏳ **Asynchronous Loading States**: Clear loading indicators and error messages.  
+- ♿ **Accessibility**: ARIA labels & live regions for screen reader compatibility.  
 
-Question Omission Capability: The application permits users to bypass any question they elect not to answer.
+---
 
-Comprehensive Results Summary: Upon completion of the quiz, a detailed results screen is presented, which displays the final score, the calculated percentage of correct answers, and a review of all submitted responses.
+## 🛠️ Technology Stack
+- ⚛️ **Framework**: React  
+- 🧭 **Routing**: React Router  
+- 🎨 **Styling**: Tailwind CSS  
+- 🎬 **Animations**: Framer Motion  
+- 🔔 **Icons**: Lucide React  
+- ⚡ **Build Tool**: Vite  
 
-User Interface and Experience Enhancements
-Contemporary and Responsive User Interface: The interface has been constructed with Tailwind CSS to ensure a clean, responsive design that maintains integrity across a wide range of devices and screen dimensions.
+---
 
-Fluid User Interface Animations: Leveraging the Framer Motion library, the user interface incorporates fluid animations for question transitions, interactive element feedback, and asynchronous loading states.
+## 🚀 Setup & Deployment Guide
 
-Visual Response Indicators: Icons from the Lucide React library are utilized to provide immediate and unambiguous visual confirmation for both correct and incorrect answer selections.
+### 📌 Prerequisites
+Make sure you have installed:  
+- [Node.js](https://nodejs.org/)  
+- npm (comes with Node.js)  
 
-Optimized Layout Design: A professional and intuitive layout has been implemented to facilitate seamless user navigation throughout the quiz experience.
-
-Technical Specifications and Exception Handling
-API Communication Fallback Mechanism: In the event that the live API becomes unresponsive or exceeds an eight-second timeout threshold, the application is designed to transition seamlessly to a locally stored set of sample questions.
-
-Selectable Data Source: A toggle control on the initial screen grants users the ability to manually alternate between the live API and the local data source.
-
-Persistence of High Scores: The highest achieved score is preserved in the browser's localStorage, enabling users to benchmark their performance against previous sessions.
-
-Session State Persistence: Should a page refresh occur during an active quiz, the application's current state—including the active question, score, and submitted answers—is restored via sessionStorage to prevent any loss of progress.
-
-Asynchronous Operation States: The application displays a designated loading indicator during data-fetching operations and presents clear error notifications in the event of a technical issue.
-
-Accessibility Standards: The application incorporates ARIA labels and live regions to enhance compatibility with screen reader technologies and improve the overall user experience for individuals with disabilities.
-
-🛠️ Technology Stack
-Framework: React
-
-Routing: React Router
-
-Styling: Tailwind CSS
-
-Animations: Framer Motion
-
-Icons: Lucide React
-
-Build Tool: Vite
-
-🚀 Implementation and Deployment Guide
-To establish a local development environment and execute the project, please adhere to the following procedures.
-
-Prerequisites
-The following software is required to be installed on the local machine:
-
-Node.js
-
-npm (Node Package Manager)
-
-Installation Procedure
-Clone the Source Repository:
-
-git clone https://github.com/deepgupta6/today-pay-assignment.git
+### ⚡ Installation Steps
+```bash
+# 1️⃣ Clone Repository
+git clone https://github.com/your-username/react-trivia-quiz.git
 cd react-trivia-quiz
 
-Install Project Dependencies:
-
+# 2️⃣ Install Dependencies
 npm install
 
-Initiate the Development Server:
-
+# 3️⃣ Run Development Server
 npm run dev
+
+
 
 Upon successful execution, the application will be accessible at http://localhost:5173 or an alternative port if the default is occupied.
 
