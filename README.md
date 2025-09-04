@@ -60,12 +60,10 @@ npm install
 # 3️⃣ Run Development Server
 npm run dev
 
-
-
 Upon successful execution, the application will be accessible at http://localhost:5173 or an alternative port if the default is occupied.
 
-📂 Project Directory Structure
-```
+ ##📂 Project Directory Structure
+
 /src
 |-- /api
 |   |-- triviaApi.js        # Manages API requests and fallback logic
