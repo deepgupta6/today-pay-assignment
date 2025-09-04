@@ -51,7 +51,7 @@ Make sure you have installed:
 ### ⚡ Installation Steps
 ```bash
 # 1️⃣ Clone Repository
-git clone https://github.com/your-username/react-trivia-quiz.git
+git clone https://github.com/deepgupta6/today-pay-assignment.git
 cd react-trivia-quiz
 
 # 2️⃣ Install Dependencies
